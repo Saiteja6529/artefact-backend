@@ -1,0 +1,5 @@
+indexes/
+knowledge_base/
+k8s/
+*.log
+*.tar.gz
