@@ -1,0 +1,10 @@
+chromadb
+deepgram-sdk
+faiss-cpu
+flask-cors
+sentence-transformers
+groq
+python-dotenv
+pydantic
+flask
+requests

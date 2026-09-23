@@ -1,0 +1,10 @@
+ARTEFACT backend running on http://127.0.0.1:5000
+ - GROQ_MODEL     -> openai/gpt-oss-20b
+ - /chat          -> returns text answer
+ - /synthesize    -> returns MP3 audio of any text
+ * Serving Flask app 'app'
+ * Debug mode: on
+ARTEFACT backend running on http://127.0.0.1:5000
+ - GROQ_MODEL     -> openai/gpt-oss-20b
+ - /chat          -> returns text answer
+ - /synthesize    -> returns MP3 audio of any text

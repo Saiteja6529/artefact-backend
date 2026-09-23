@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mythology-backend-deployment
+spec:
+  replicas: 2 # Tell Kubernetes to keep 2 copies running for high availability
+  selector:
+    matchLabels:
+      app: mythology-backend
+  template:
+    metadata:
+      labels:
+        app: mythology-backend
+    spec:
+  containers:
+  - name: rag-container
+    image: mythology-backend:latest # Change it to this clean local name
+    imagePullPolicy: Never          # Add this line right below it
+    ports:
+    - containerPort: 5000
